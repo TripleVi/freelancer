@@ -1,0 +1,40 @@
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    #header {
+        padding: 12px;
+    }
+
+    #header .navbar {
+        display: none;
+    }
+
+    #header .mobile-list {
+        display: block;
+        background-color: #1abc9c;
+        padding: 8px 12px;
+        color: white;
+        border-radius: 12px;
+        font-size: 1.6rem;
+    }
+
+    .portfolio-item {
+        width: 48%;
+    }
+
+    #about .desc p {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #footer .container > div {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .portfolio-item {
+        width: 100%;
+    }
+}

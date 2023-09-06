@@ -1,0 +1,246 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 100px;
+    background-color: #2c3e50;
+    text-transform: uppercase;
+}
+
+#header .brand {
+    color: white;
+    text-decoration: none;
+}
+
+#header .navbar {
+    color: white;
+    display: flex;
+}
+
+#header .mobile-list {
+    display: none;
+}
+
+#header .navbar li {
+    padding: 12px;
+}
+
+#profile {
+    background-color: #1abc9c;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#profile .avatar {
+    width: 220px;
+}
+
+#profile .title {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider-line {
+    background-color: white;
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.divider-icon {
+    color: white;
+    margin: 0 20px;
+    font-size: 32px;
+}
+
+#profile .jobs {
+    color: white;
+    text-transform: capitalize;
+}
+
+#portfolio {
+    background-color: white;
+}
+
+#portfolio .title {
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+#portfolio .divider-line {
+    background-color: #2c3e50;
+}
+
+#portfolio .divider-icon {
+    color: #2c3e50;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+#about {
+    background-color: #1abc9c;
+}
+
+#about .title {
+    color: white;
+    text-transform: uppercase;
+}
+
+#about .desc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#about .desc p {
+    text-align: left;
+    width: 48%;
+    color: white;
+}
+
+.btn-download {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 28px;
+}
+
+#contact {
+    background-color: white;
+}
+
+#contact .title {
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+#contact .divider-line {
+    background-color: #2c3e50;
+}
+
+#contact .divider-icon {
+    color: #2c3e50;
+}
+
+.btn-send {
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    float: left;
+}
+
+.contactForm .form-control {
+    width: 100%;
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+    padding: 10px 0px;
+    margin-top:20px;
+    outline:none;
+    border-color: #ced4da;
+}
+
+.form-floating {
+    position: relative;
+}
+
+.contactForm label {
+    font-size: 1.5rem;
+    color: #6c757d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 0;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    border: 0.125rem solid transparent;
+    display: inline-block;
+}
+
+#footer {
+    background-color: #2c3e50;
+    color: white;
+}
+
+#footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer .container > div {
+    width: 30%;
+}
+
+#footer .title {
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#footer .address {
+    color: white;
+}
+
+#footer .social-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.6rem;
+    margin-right: 8px;
+}
+
+#footer .about {
+    color: white;
+}
+
+#footer .about a {
+    color: #1abc9c;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #1a252f;
+    padding: 28px 0;
+}
+
+.copyright p {
+    color: white;
+}
